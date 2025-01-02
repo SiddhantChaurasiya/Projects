@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 80vh;
+    width: 30vw;
+    border-radius: 1.25rem;
+    background-color: #FFF;
+    box-shadow: 0.5rem 0.5rem #111;
+}
+
+.Blog-image img{
+    border-radius: 0.625rem;
+    margin: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.content button{
+    width: 5rem;
+    height: 1.8rem;
+    background-color: #F4D04E;
+    color: #111;
+    font-weight: bold;
+    font-family: Figtree;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.content button:hover{
+    box-shadow: 0.1rem 0.1rem 0.3rem #111;
+}
+
+.publish-date{
+    margin-top: 1rem;
+    height: 1.3rem;
+    margin-bottom: 0.8rem;
+    font-family: Figtree;
+    font-size: 1rem;
+}
+
+.content .title{
+    width: 21rem;
+    height: 2rem;
+    font-weight: 900;
+    font-family: Figtree;
+    font-size: 1.5rem;
+}
+
+.content .title:hover{
+    color: #F4D04E;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.content .desc{
+    color: #6B6B6B;
+    height: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Figtree;
+    font-size: 1rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.25rem;
+}
+
+.author img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.author .author-name{
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-family: Figtree;
+    font-size: 1rem;
+}
